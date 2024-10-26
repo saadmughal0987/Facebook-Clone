@@ -1,6 +1,7 @@
 import React from 'react';
 import SignupForm from './pages/SignupForm'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import { BrowserRouter } from 'react-router-dom';
 import './styles/App.css'; 
 import LoginForm from './pages/LoginForm'; 
 import FbWebPage from './pages/FbWebPage'; 
