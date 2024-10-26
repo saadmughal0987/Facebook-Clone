@@ -12,6 +12,8 @@ import MarketplacePage from './pages/MarketplacePage';
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
+      
       <Router>
         <Routes>
           <Route path="/" element={<LoginForm />} />
@@ -22,6 +24,9 @@ function App() {
           <Route path="/marketplace-page" element={<MarketplacePage />} /> 
         </Routes>
       </Router>
+      
+      </BrowserRouter>
+     
     </div>
   );
 }
