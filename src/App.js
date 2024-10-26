@@ -13,7 +13,6 @@ import MarketplacePage from './pages/MarketplacePage';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
       
       <Router>
         <Routes>
@@ -26,7 +25,6 @@ function App() {
         </Routes>
       </Router>
       
-      </BrowserRouter>
      
     </div>
   );
