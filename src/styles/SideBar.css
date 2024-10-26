@@ -1,0 +1,81 @@
+/* Sidebar Container */
+.sidebarfrnd {
+    width: 330px;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 15px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.frnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.frnd h3 {
+    font-size: 24px;
+    font-family: 'Segoe UI Historic', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Sidebar Items Section */
+
+
+.sidebarfrnd-section ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* Sidebar Item */
+.sidebarfrnd-item {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Segoe UI Historic', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.sidebarfrnd-item.active {
+    background-color: #eeeff1;
+}
+
+.sidebarfrnd-item:hover {
+    background-color: #eeeff1;
+}
+
+.sidebarfrnd-item span {
+    font-size: 17px;
+    color: #000;
+}
+
+/* Icon Circle Background */
+.circle-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #eeeff1;
+    border-radius: 50%;
+    margin-right: 28px;
+}
+
+.sidebarfrnd-item.active .circle-bg {
+    background-color: #1877f2;
+    color: white;
+}
+
+/* Images inside the sidebar list items */
+.sidebarfrnd-item img {
+    width: 20px;
+    height: 20px;
+}
+

@@ -1,0 +1,90 @@
+.friends-section {
+    width: calc(100% - 330px); 
+    margin-left: 330px; 
+    background-color: #f5f6f7;
+    padding: 15px;
+    height: calc(100vh - 22px);
+    padding-top: 100px;
+    box-sizing: border-box; 
+    scroll-behavior: smooth
+}
+.see-all{
+    display: flex;
+    margin-left: 15px; 
+    justify-content: space-between;
+
+}
+.see-all h5{
+    margin-right: 20px;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px; 
+    color: #0064D1;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+  
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 10px;
+    margin-top: -40px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .card-image {
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-content {
+    padding: 10px;
+    text-align: start;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+  }
+  
+  .confirm-btn, .delete-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  .confirm-btn {
+    background-color: #1877f2;
+  }
+  .confirm-btn:hover {
+    background-color: #1873e9;
+  }
+  .delete-btn {
+    background-color: #e4e6eb;
+    color: black;
+  }
+  .delete-btn:hover {
+    background-color: #cfd1d6;
+  }
+  

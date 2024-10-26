@@ -1,0 +1,321 @@
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 0px; 
+    padding: 20px;
+    padding-top: 40px;
+    justify-items: center; 
+    align-items: center; 
+    width: 100%;
+      
+}
+
+.grid-item {
+    background-color: white;
+    color: white;
+    height: 240px;
+    width: 130px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease;
+    cursor: pointer;
+
+}
+.grid-1{
+    background-image: url(/public/images/saad1.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: top;
+    transition: background-size 0.4s ease;
+    color: black;
+ 
+}
+.grid-1:hover{ 
+    background-size: 203px;
+    opacity: 0.9;
+
+}
+.add{
+    position: relative;
+    top: -19px;
+    left: 44px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    background-image: url(/public/images/adds.png);
+    background-size: cover;
+}
+.border{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 21%;
+    position: relative;
+    bottom: -190px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+h5{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+.grid-2{
+    background-image: url(/public/images/story.jpeg);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    transition: background-size 0.4s ease;
+    color: black;
+    background-position: center;
+
+}
+.grid-2:hover{
+    background-size: 135px;
+    opacity: 0.9;
+
+}
+.dp{
+    height: 35px;
+    width: 35px;
+    border: 4px solid #0866ff;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-image: url(/public/images/pcb.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-3{
+    background-image: url(/public/images/ufc.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: top;
+    transition: background-size 0.4s ease;
+    color: black;
+
+}
+.dp3{
+    height: 35px;
+    width: 35px;
+    border: 4px solid #0866ff;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-image: url(/public/images/ufc\ logo.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-3:hover{
+    background-size: 205px;
+    opacity: 0.9;
+
+}
+.grid-4{
+    background-image: url(/public/images/jacket.jpeg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: top;
+    transition: background-size 0.4s ease;
+    color: black;
+
+}
+.dp4{
+    height: 35px;
+    width: 35px;
+    border: 4px solid #0866ff;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-image: url(/public/images/mr\ beast\ logo.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.grid-4:hover{
+    background-size: 205px;
+    opacity: 0.9;
+
+}
+/* activity container */
+
+.activity-container {
+    background-color: rgb(255, 255, 255);
+    height: 17%;
+    width: 99%;
+    margin-left: 22px;
+    border-radius: 10px;
+    border-color: transparent;
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top1 {
+    display: flex; 
+}
+
+.top1 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px; 
+}
+
+.top2 input {
+    width: 210%; 
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #f0f2f5;
+    background-color: #f0f2f5;
+    margin-top: 12px; 
+    font-size: medium;
+}
+
+.divider {
+    margin: 10px 10px;
+    background-color: rgba(180, 177, 177, 0.5);
+}
+
+.image-sequence {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.sequence-image {
+    border-radius: 5px; 
+}
+
+
+   /* post container */
+
+
+.post-container {
+    width: 94%; 
+    height: 70%;
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.post {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.post-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.post-time {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.hashtags {
+    color: #1877F2; 
+    font-weight: bold;
+}
+.post-image{
+    margin-top: 10px;
+}
+.post-main-image{
+    width: 105.5%;
+    height: 5%;
+    margin-left: -15px;
+
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hearts {
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 50px;
+    height: 20px;
+}
+.like{
+    position: static;
+    margin-top: -20px;
+    height: 20px;
+}
+.heart span{
+    position: relative;
+    right: -10px;
+    top: -4px;
+    font-size: medium;
+    color: grey;
+}
+.comments{
+    margin-top: 12px;
+    font-size: medium;
+    color: grey;
+    font-weight: 500;
+}
+hr {
+    height: 1px; 
+    background-color: #d3d3d3; 
+    border: none; 
+    margin: 20px 0; 
+}
+
+.social-section{
+    display: flex;
+    justify-content: space-between;
+}
+.alt{
+    margin-top: -10px;
+}
+.alt img{
+    height: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+}
+.alt span{
+    color: rgb(110, 109, 109);
+    font-size: small;
+    position: relative;
+    top: -5px;
+    
+}
+
+

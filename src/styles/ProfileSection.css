@@ -1,0 +1,169 @@
+/* General styling for the profile page */
+.profile-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white; 
+}
+
+/* Cover Photo Section */
+.cover-photo {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Height for the cover photo */
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the cover photo */
+    border-radius: 10%;
+}
+
+.cover-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.edit-cover-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Profile Information Section */
+.profile-info {
+    position: relative;
+    display: flex;
+    padding: 20px;
+}
+
+.profile-picture {
+    margin-right: 20px;
+    position: relative;
+    top: -75px; 
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+
+.profile-details {
+    text-align: center; /* Center the profile details text */
+}
+
+.profile-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Styling for profile details and friends list */
+.profile-details h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.friends-list {
+    display: flex;
+    justify-content: center; /* Center the friends list */
+    margin-top: 10px;
+}
+
+.friends-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/* Buttons for profile actions */
+.add-story-btn, .edit-profile-btn {
+    padding: 10px 15px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Friend Suggestions Section */
+.friend-suggestions {
+    padding: 20px;
+    background-color: white; /* White background for the card container */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Box-shadow for card container */
+}
+
+.suggestion-cards {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.suggestion-card {
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box-shadow for individual cards */
+}
+
+.suggestion-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.add-friend-btn {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #EbF5FF;
+    color: #1877f2;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Navigation Tabs */
+.profile-nav {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.profile-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-nav li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.profile-nav li:hover {
+    background-color: #f0f0f0;
+    color: #1877f2;
+    text-decoration: underline;
+}

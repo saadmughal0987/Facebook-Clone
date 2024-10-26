@@ -1,0 +1,208 @@
+
+.market-search-bar {
+  margin: 20px 0;
+  position: relative;
+}
+
+
+
+
+.market-marketplace {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.market-marketplace-icon {
+  color: #1877f2;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;    
+  border: 10px solid #e4e6eb;
+  border-radius: 50%;
+}
+
+.market-icon-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+}
+
+.market-icon-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.market-icon-item:hover {
+  background-color: #f0f2f5;
+  border-radius: 10px;
+ 
+}
+
+.market-create-listing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #e7f3ff;
+  border: none;
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.market-plus-icon {
+  margin-right: 10px;
+}
+
+.market-location,
+.market-icons-list {
+  margin: 20px 0;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+.market-icon-1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border: 2px solid #ccc;  /* Add border around the icon */
+  padding: 5px;  /* Add some padding inside the icon */
+  border-radius: 50%;  /* Make the icon circular */
+}
+
+.market-icon-item {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  gap: 15px;  /* Adds space between icon and text */
+}
+ .classified-icon{
+  height: 18px;
+  width: 18px;    
+  border: 10px solid #e4e6eb;
+  border-radius: 50%;
+
+
+}
+
+.market-page {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent overall page scrolling */
+}
+
+/* Sidebar styling */
+.market-sidebar {
+  width: 22%;
+  background-color: white;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto; /* Allow only sidebar content to scroll */
+  height: 100vh; /* Full height */
+}
+
+.market-search-bar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 70%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.market-search-bar input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/* cards  */  
+
+
+/* General styling for the market page layout */
+
+
+/* Cards section styling */
+.market-cards-section {
+  width: 78%;
+  padding: 15px;
+  overflow-y: auto; /* Allow only cards section content to scroll */
+  background-color: #f0f2f5;
+
+}
+
+.see-all {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+
+}
+
+.card-image {
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.card-content-market{
+  padding: 10px;
+  text-align: start;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.confirm-btn, .delete-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.confirm-btn {
+  background-color: #1877f2;
+}
+
+.delete-btn {
+  background-color: #e4e6eb;
+  color: black;
+}
+

@@ -1,0 +1,90 @@
+.right-sidebar {
+    width: 300px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 90vh;
+    background-color: transparent;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+.sponsored, .birthdays, .contacts {
+    margin-bottom: 20px;
+}
+
+.sponsored h3, .birthdays h4, .contacts h4 {
+    color: #565555;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.ad, .birthday-item, .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 50px; /* Set a fixed height for better alignment */
+    border-radius: 5px;
+    width: 100%; /* Ensure full width */
+}
+
+.ad img {
+    height: 80px;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.birthday-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-item img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.contact-item:hover {
+    background-color: rgb(218, 213, 213);
+}
+
+.contact-item span {
+    font-size: 14px;
+    color: #555;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.titles img {
+    height: 20px;
+    width: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #888;
+    margin: 10px 0;
+}
+
+.group-item {
+    cursor: pointer;
+    height: 40px; /* Adjust height for uniformity */
+}
